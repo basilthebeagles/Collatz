@@ -3,7 +3,7 @@ import java.text.DecimalFormat;
 
 import javax.swing.JOptionPane;
 
-
+//HI Michael
 public class Collatz {
 
 	public static void main(String[] args) {
