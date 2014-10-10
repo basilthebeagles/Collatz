@@ -19,7 +19,7 @@ do{
 	if(input != 1){
 		go = true;
 	}if(input == 1 || input <= -1 ){
-		JOptionPane.showMessageDialog(null, "Uh oh you entred an invalid number\nPlease enter a posative number that is not 0.");
+		JOptionPane.showMessageDialog(null, "Ush oh you entred an invalid number\nPlease enter a posative number that is not 0.");
 	}
 }while(go != true);
 	System.out.println("a");
