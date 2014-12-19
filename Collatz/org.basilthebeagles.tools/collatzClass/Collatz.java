@@ -2,23 +2,27 @@ package collatzClass;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-import javax.swing.JOptionPane;
+
 
 
 public class Collatz {
 
 	public static void main(String[] args) {
+		
 		Boolean go = false;
-		long input = 0;
+		long input;
 		long trys = 0;
 		long high = 0;
 		long num = 0;
 		Scanner s = new Scanner(System.in);
 do{
+	if(args[0] != null){
+		input = Long.parseLong(args[0]);
+	}else{
 		System.out.println("Please enter the number you would like to reduce to zero.");
 		input = s.nextLong();
 		num = input;
-		
+	}	
 		
 	if(input != 1){
 		go = true;
